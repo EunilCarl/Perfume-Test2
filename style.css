@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    font-family: 'Fraunces', serif;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: auto;
+    max-width: 700px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.wrapper{
+    display: flex;
+    max-width: 600px;
+    border-radius: 1em;
+    background-color: white;
+    overflow: hidden;
+    height: 435px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+    
+    
+}
+.main-details{
+    padding: 1em 2em;
+   
+    
+   
+}
+
+    
+
+
+.bg-image img{
+    width: 290px;
+    
+    
+    
+}
+
+.price h1{
+    color: hsl(158, 36%, 37%);
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+    margin-top: 1px;
+    margin-left: -45px;
+    
+    
+    
+    
+}
+
+.price p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-left: -20px;
+
+    
+   
+}
+
+.author span{
+    font-size: 35px;
+    
+    
+    
+    
+}
+
+.Cart{
+   
+    margin: 10px 2px;
+    height: 50px;
+    
+    
+    
+}
+.inside-cart{
+    
+    
+    background-color:  hsl(158, 36%, 37%);
+    font-size:small;
+    color: white;
+    text-align: center;
+    padding-top: .5px;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: -100px;
+    
+    
+    
+
+    
+}
+.inside-cart a{
+    color: white;
+    text-decoration: none;
+}
+.author p {
+    width: 260px;
+    color: hsl(228, 12%, 48%);
+    
+    
+}
+.price{
+    display: flex;
+    
+    width: 15em;
+    justify-content: space-evenly;
+   
+    height: 50px;
+}
+
+.title h5 {
+    margin-top: 10px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: -1px;
+    
+}
+
+.inside-cart:hover{
+    transform: translateY(-0.25em);
+    transform: scale(1.01);
+    transform: scale(10s);
+    background-color:  hsl(159, 37%, 19%);
+    transition: border-color 0.7s, background-color 0.5s, color 0.5s
+}
+
+@media screen and (max-width: 480px)  {
+    .wrapper {
+     margin: auto 200px;
+     overflow: visible;
+     
+      
+    }
+    
+}
